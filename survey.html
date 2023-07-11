@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link href="surveystyle.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/194f12e455.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>Survey Form</h1>
+    <div class="container">
+        <form action="success.html">
+            <label class="required"><strong>Name</strong></label><i class="fa-regular fa-asterisk fa-2xs"
+                style="color: #ff1a1a;"></i></i><br>
+            <input type="text" name="fname"><input type="text" name="lname"><br>
+            <label>First</label><label id="lname">Last</label><br><br>
+            <label><strong>Email</strong></label><i class="fa-regular fa-asterisk fa-2xs"
+                style="color: #ff1a1a;"></i><br>
+            <input type="email" name="email"><br><br>
+            <label><strong>Your Experience</strong></label><i class="fa-regular fa-asterisk fa-2xs"
+                style="color: #ff1a1a;"></i><br>
+            <i class="ab fa-solid fa-star fa-xs" style="color: #e69951;"></i><i class="fa-solid fa-star fa-xs"
+                style="color: #e69951;"></i><i class="fa-solid fa-star fa-xs" style="color: #e69951;"></i><i
+                class="fa-solid fa-star fa-xs" style="color: #e69951;"></i><i class="fa-solid fa-star fa-xs"
+                style="color: #e69951;"></i>
+            <p>Overall,how would you rate you experience with me?</p>
+            <label><strong>How satisfied are you with</strong></label><i class="fa-regular fa-asterisk fa-2xs"
+                style="color: #ff1a1a;"></i><br>
+            <div class="column">
+                <label>Very
+                    Unsatisfied</label><label>Unsatisfied</label><label>Neutral</label><label>Satisfied</label><label>Very
+                    Satisfied</label><br>
+                <div class="row">
+                    Purchase<input type="radio"><input type="radio"><input type="radio"><input type="radio"><input
+                        type="radio">
+                </div>
+                <div class="row">
+                    Service <input type="radio"><input type="radio"><input type="radio"><input type="radio"><input
+                        type="radio">
+                </div>
+                <div class="row">
+                    Company Overall <input type="radio"><input type="radio"><input type="radio"><input
+                        type="radio"><input type="radio">
+                </div>
+            </div><br>
+            <label><strong>How likely are you to</strong></label><i class="fa-regular fa-asterisk fa-2xs"
+                style="color: #ff1a1a;"></i><br>
+            <div class="column">
+                <label>Very
+                    Unlikely</label><label>Unlikely</label><label>Neutral</label><label>Likely</label><label>Very
+                    Likely</label>
+                <div class="row">
+                    Buy from us again<input type="radio"><input type="radio"><input type="radio"><input
+                        type="radio"><input type="radio">
+                </div>
+                <div class="row">
+                    Recommend our product to others<input type="radio"><input type="radio"><input type="radio"><input
+                        type="radio"><input type="radio">
+                </div>
+                <div class="row">
+                    Recommend our company to others<input type="radio"><input type="radio"><input type="radio"><input
+                        type="radio"><input type="radio">
+                </div>
+            </div><br>
+            <label><strong>Additional comments or suggestions</strong></label><br>
+            <textarea name="textarea" rows="5" cols="80"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
